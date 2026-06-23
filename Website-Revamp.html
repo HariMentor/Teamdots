@@ -1,0 +1,1983 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Website Revamp — High-Performance Websites for Indian Brands | Teamdots Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700;9..144,800;9..144,900&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="icon" href="assets/teamdots-logo.png" />
+<!-- SEO: Primary -->
+<meta name="description" content="Revamp your website with Teamdots. We design and develop fast, conversion-optimised websites for resorts, wedding venues, real estate developers and e-commerce brands across Bangalore, Kerala, Hyderabad and India." />
+<meta name="keywords" content="website revamp India, website redesign Bangalore, website development Kerala, resort website design, wedding website, real estate website, e-commerce website development, web design agency Hyderabad" />
+<meta name="author" content="Teamdots Studio" />
+<meta name="robots" content="index, follow" />
+<meta name="theme-color" content="#0a0a0a" />
+<link rel="canonical" href="https://teamdots.in/Website-Revamp.html" />
+<!-- SEO: Open Graph -->
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Website Revamp — High-Performance Websites for Indian Brands | Teamdots Studio" />
+<meta property="og:description" content="Revamp your website with Teamdots. We design and develop fast, conversion-optimised websites for resorts, wedding venues, real estate developers and e-commerce brands across Bangalore, Kerala, Hyderabad and India." />
+<meta property="og:url" content="https://teamdots.in/Website-Revamp.html" />
+<meta property="og:image" content="https://teamdots.in/assets/teamdots-logo.png" />
+<meta property="og:site_name" content="Teamdots Studio" />
+<meta property="og:locale" content="en_IN" />
+<!-- SEO: Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Website Revamp — High-Performance Websites for Indian Brands | Teamdots Studio" />
+<meta name="twitter:description" content="Revamp your website with Teamdots. We design and develop fast, conversion-optimised websites for resorts, wedding venues, real estate developers and e-commerce brands across Bangalore, Kerala, Hyderabad and India." />
+<meta name="twitter:image" content="https://teamdots.in/assets/teamdots-logo.png" />
+<!-- JSON-LD -->
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Website Revamp — Teamdots Studio","url":"https://teamdots.in/Website-Revamp.html"}</script>
+<style>
+  :root{
+    --bg:#0a0a0a;
+    --ink:#f5f3ee;
+    --ink-dim:#9a958d;
+    --line:#1f1f1f;
+    --red:#e63232;
+    --red-soft:#ff4747;
+    --amber:#f1a13a;
+    --green:#1f8a5b;
+    --display:'Fraunces','Times New Roman',serif;
+    --sans:'DM Sans',system-ui,-apple-system,sans-serif;
+    --mono:'JetBrains Mono', monospace;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background:var(--bg); color:var(--ink);
+    font-family:var(--sans); font-size:16px;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  ::selection{background:var(--red); color:#fff;}
+  a{color:inherit; text-decoration:none;}
+  button{font-family:inherit; cursor:pointer; border:none; background:none; color:inherit;}
+
+  /* NAV */
+  .nav{
+    position:fixed; top:0; left:0; right:0; z-index:100;
+    display:flex; align-items:center; justify-content:space-between;
+    padding:18px 40px;
+    background:rgba(10,10,10,.72);
+    backdrop-filter: blur(20px) saturate(140%);
+    -webkit-backdrop-filter: blur(20px) saturate(140%);
+    border-bottom:1px solid rgba(255,255,255,.06);
+  }
+  .nav .brand{
+    display:flex; align-items:flex-end; gap:0;
+    font-family:var(--display); font-weight:500; font-size:26px; letter-spacing:-.02em;
+  }
+  .nav .brand .dot{
+    width:10px; height:10px; border-radius:50%;
+    background:var(--red); margin-left:4px; margin-bottom:4px;
+    box-shadow: 0 0 24px rgba(230,50,50,.6);
+  }
+  .nav ul{display:flex; list-style:none; gap:24px; font-size:13px; font-weight:500;}
+  .nav ul a{color:var(--ink-dim); transition:color .2s;}
+  .nav ul a:hover, .nav ul a.active{color:var(--ink);}
+  .nav ul a.active{position:relative;}
+  .nav ul a.active::after{
+    content:""; position:absolute; left:0; right:0; bottom:-6px;
+    height:2px; background:var(--red); border-radius:2px;
+  }
+  .nav .cta-btn{
+    background:var(--ink); color:#0a0a0a;
+    padding:10px 18px; border-radius:999px;
+    font-size:13.5px; font-weight:600;
+    transition: transform .2s, background .2s;
+  }
+  .nav .cta-btn:hover{background:#fff; transform:translateY(-1px);}
+  @media(max-width:1180px){.nav{padding:14px 20px;} .nav ul{display:none;}}
+
+  /* Marquee announcement */
+  .banner{
+    background: var(--red);
+    color:#fff;
+    padding: 8px 0;
+    overflow:hidden;
+    margin-top:72px;
+  }
+  .banner-track{
+    display:flex; gap:64px; width:max-content;
+    animation: scroll 28s linear infinite;
+    font-size:12px; letter-spacing:.18em; text-transform:uppercase;
+    font-weight:600;
+  }
+  .banner-track span{display:flex; align-items:center; gap:64px;}
+  .banner-track span::after{content:"●"; font-size:8px; opacity:.7;}
+  @keyframes scroll{ from{transform:translateX(0);} to{transform:translateX(-50%);} }
+
+  /* HERO */
+  .hero{
+    padding: 100px 40px 80px;
+    position:relative;
+    overflow:hidden;
+  }
+  .hero::before{
+    content:""; position:absolute; inset:0;
+    background:
+      radial-gradient(60% 50% at 30% 30%, rgba(230,50,50,.10), transparent 70%),
+      radial-gradient(40% 50% at 80% 70%, rgba(241,161,58,.08), transparent 70%);
+    pointer-events:none;
+  }
+  .wrap{max-width:1280px; margin:0 auto; position:relative; z-index:2;}
+  .hero-grid{
+    display:grid;
+    grid-template-columns: 1.2fr 1fr;
+    gap:80px;
+    align-items:center;
+  }
+  @media(max-width:980px){.hero-grid{grid-template-columns:1fr; gap:40px;}}
+  .eyebrow{
+    display:inline-flex; align-items:center; gap:10px;
+    font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--ink-dim);
+    padding:8px 16px;
+    border:1px solid var(--line);
+    border-radius:999px;
+    margin-bottom:24px;
+    background:rgba(255,255,255,.02);
+  }
+  .eyebrow .pulse{width:6px; height:6px; border-radius:50%; background:var(--red); animation: pulse 2s infinite;}
+  @keyframes pulse{
+    0%{box-shadow:0 0 0 0 rgba(230,50,50,.7);}
+    70%{box-shadow:0 0 0 12px rgba(230,50,50,0);}
+    100%{box-shadow:0 0 0 0 rgba(230,50,50,0);}
+  }
+  h1.title{
+    font-family:var(--display);
+    font-weight:400;
+    font-size:clamp(54px, 7.8vw, 124px);
+    line-height:.92; letter-spacing:-.035em;
+    margin-bottom:28px;
+    text-wrap:balance;
+  }
+  h1.title .it{font-style:italic; font-weight:300; color:var(--ink-dim);}
+  h1.title .accent{color:var(--red);}
+  h1.title .strike{
+    position:relative; display:inline-block; color:var(--ink-dim);
+  }
+  h1.title .strike::after{
+    content:""; position:absolute; left:-4px; right:-4px; top:50%;
+    height:6px; background:var(--red); border-radius:3px;
+    transform: rotate(-2deg); transform-origin:center;
+  }
+  .hero p.sub{
+    font-size:clamp(16px,1.5vw,18px);
+    color:var(--ink-dim); line-height:1.55;
+    max-width:50ch; margin-bottom:36px;
+    text-wrap:pretty;
+  }
+  .hero-ctas{display:flex; gap:14px; flex-wrap:wrap;}
+  .btn{
+    display:inline-flex; align-items:center; gap:10px;
+    padding:16px 28px; border-radius:999px;
+    font-size:14.5px; font-weight:600;
+    transition: transform .2s, background .2s, border-color .2s;
+  }
+  .btn-primary{background:var(--red); color:#fff;}
+  .btn-primary:hover{background:var(--red-soft); transform:translateY(-2px);}
+  .btn-ghost{background:transparent; color:var(--ink); border:1px solid rgba(255,255,255,.18);}
+  .btn-ghost:hover{border-color:var(--ink); transform:translateY(-2px);}
+
+  /* Mock browser preview */
+  .preview{
+    position:relative;
+    border-radius:18px;
+    overflow:hidden;
+    border:1px solid var(--line);
+    background:#0e0e0e;
+    box-shadow: 0 60px 120px -40px rgba(230,50,50,.18);
+    aspect-ratio: 4/3.2;
+  }
+  .preview .bar{
+    height:36px; background:#161616; border-bottom:1px solid var(--line);
+    display:flex; align-items:center; padding: 0 14px; gap:8px;
+  }
+  .preview .bar .dots{display:flex; gap:6px;}
+  .preview .bar .dots i{
+    display:block; width:11px; height:11px; border-radius:50%;
+    background:#2a2a2a;
+  }
+  .preview .bar .dots i:nth-child(1){background:#e63232;}
+  .preview .bar .dots i:nth-child(2){background:#f1a13a;}
+  .preview .bar .dots i:nth-child(3){background:#1f8a5b;}
+  .preview .bar .url{
+    flex:1; height:22px; border-radius:8px;
+    background:#0a0a0a; border:1px solid var(--line);
+    margin: 0 14px;
+    display:flex; align-items:center; padding: 0 12px;
+    font-family:var(--mono); font-size:11px; color:var(--ink-dim);
+  }
+  .preview .bar .url span{color:var(--ink); margin-left:4px;}
+  .preview .scene{
+    position:absolute; inset:36px 0 0 0;
+    overflow:hidden;
+  }
+  /* Animated before/after layers */
+  .layer{
+    position:absolute; inset:0;
+    transition: clip-path 1.2s cubic-bezier(.4,0,.2,1), opacity .6s;
+  }
+  .layer.before{
+    background:#1a1a1a;
+    z-index:1;
+  }
+  .layer.before .junk{
+    padding: 32px 28px;
+    display:flex; flex-direction:column; gap:14px;
+    font-family: 'Times New Roman', serif;
+  }
+  .layer.before .junk h3{font-size:22px; color:#fff;}
+  .layer.before .junk .ad{
+    background: #ffeb3b; color:#000;
+    padding:8px 12px; font-weight:bold;
+    font-size:11px; letter-spacing:.05em;
+    align-self:flex-start;
+    animation: blink 1.4s infinite;
+  }
+  @keyframes blink{50%{opacity:.5;}}
+  .layer.before .junk .row{height:10px; background:rgba(255,255,255,.12); border-radius:2px; width:80%;}
+  .layer.before .junk .row.s{width:60%;}
+  .layer.before .junk .img{height:80px; background: linear-gradient(135deg,#3a3a3a,#222); border-radius:2px;}
+  .layer.before .junk .btn-old{
+    background: #1e88e5; color:#fff;
+    padding: 10px 16px; font-size:13px; font-weight:bold;
+    border-radius:4px; align-self:flex-start; margin-top:6px;
+  }
+  .layer.after{
+    background: linear-gradient(135deg,#0a0a0a 0%, #1a0d0e 100%);
+    z-index:2;
+    clip-path: inset(0 0 0 100%);
+  }
+  .preview.revealed .layer.after{ clip-path: inset(0 0 0 0); }
+  .layer.after .new{
+    padding: 36px 32px;
+    display:flex; flex-direction:column; gap:14px;
+    color:#fff;
+  }
+  .layer.after .new .pill{
+    align-self:flex-start;
+    font-size:10px; padding: 5px 10px;
+    background: rgba(230,50,50,.18); color: var(--red);
+    border-radius:999px;
+    border:1px solid rgba(230,50,50,.3);
+    letter-spacing:.14em; text-transform:uppercase; font-weight:600;
+  }
+  .layer.after .new h3{
+    font-family:var(--display); font-weight:400; font-size:28px;
+    letter-spacing:-.01em; line-height:1.05;
+  }
+  .layer.after .new h3 .it{font-style:italic; color:var(--ink-dim);}
+  .layer.after .new .row{
+    height:7px; background:rgba(255,255,255,.08); border-radius:4px; width:80%;
+  }
+  .layer.after .new .row.s{width:60%;}
+  .layer.after .new .pic{
+    height:80px; border-radius:10px;
+    background: linear-gradient(135deg,#2a1014,#0a0a0a);
+    border:1px solid var(--line);
+    position:relative;
+    overflow:hidden;
+  }
+  .layer.after .new .pic::before{
+    content:""; position:absolute; inset:0;
+    background:radial-gradient(circle at 30% 30%, rgba(230,50,50,.3), transparent 60%);
+  }
+  .layer.after .new .btn-new{
+    align-self:flex-start;
+    background:var(--red); color:#fff;
+    padding: 9px 16px; border-radius:999px;
+    font-size:11.5px; font-weight:600;
+    margin-top:4px;
+  }
+  /* slider handle */
+  .preview .handle{
+    position:absolute; top:36px; bottom:0; width:3px;
+    background:var(--red);
+    z-index:3;
+    transition: left 1.2s cubic-bezier(.4,0,.2,1);
+    left: 0;
+  }
+  .preview.revealed .handle{left: calc(100% - 3px);}
+  .preview .handle::before{
+    content:""; position:absolute; top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    width:36px; height:36px; border-radius:50%;
+    background:var(--red);
+    box-shadow: 0 0 0 6px rgba(230,50,50,.18);
+  }
+  .preview .handle::after{
+    content:"→"; position:absolute; top:50%; left:50%;
+    transform: translate(-50%,-50%);
+    color:#fff; font-size:14px;
+    z-index:1;
+  }
+  .preview .ba-label{
+    position:absolute; top:50px; z-index:4;
+    font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    font-weight:600; padding: 5px 10px;
+    border-radius:999px;
+    backdrop-filter: blur(8px);
+  }
+  .preview .ba-label.before{left:14px; color:#9a958d; background:rgba(0,0,0,.5); border:1px solid rgba(255,255,255,.12);}
+  .preview .ba-label.after{right:14px; color:#fff; background:rgba(230,50,50,.3); border:1px solid rgba(230,50,50,.5);}
+
+  /* Sections */
+  section{ padding: 140px 40px; position:relative;}
+  .sec-tag{
+    display:inline-flex; align-items:center; gap:8px;
+    font-size:12px; letter-spacing:.22em; text-transform:uppercase;
+    color:var(--red);
+    margin-bottom:24px; font-weight:600;
+  }
+  .sec-tag::before{content:""; width:24px; height:1px; background:var(--red);}
+  h2.section{
+    font-family:var(--display); font-weight:400;
+    font-size:clamp(40px, 5.4vw, 78px); line-height:1;
+    letter-spacing:-.028em; text-wrap:balance;
+    max-width:980px;
+  }
+  h2.section .it{font-style:italic; color:var(--ink-dim);}
+  .sec-lede{
+    color:var(--ink-dim); margin-top:24px;
+    font-size:clamp(16px, 1.4vw, 18px); line-height:1.55;
+    max-width:560px;
+  }
+
+  /* WHY YOU NEED IT */
+  .why{ background:#070707; border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .stat-strip{
+    display:grid; grid-template-columns: repeat(4, 1fr);
+    gap:0; margin-top:60px;
+  }
+  @media(max-width:780px){.stat-strip{grid-template-columns:1fr 1fr;}}
+  .stat-cell{
+    padding: 32px 28px;
+    border-right:1px solid var(--line);
+    border-top:1px solid var(--line);
+  }
+  .stat-cell:last-child{border-right:none;}
+  @media(max-width:780px){.stat-cell{border-right:none;}}
+  .stat-cell .n{
+    font-family:var(--display); font-size:54px; line-height:1;
+    letter-spacing:-.03em; font-weight:400;
+  }
+  .stat-cell .n .pct{font-size:.6em; color:var(--red); margin-left:2px;}
+  .stat-cell .lab{
+    margin-top:14px; color:var(--ink-dim); font-size:14px; line-height:1.5;
+    max-width:240px;
+  }
+  .reasons{
+    display:grid; grid-template-columns: repeat(3, 1fr);
+    gap:14px; margin-top:60px;
+  }
+  @media(max-width:900px){.reasons{grid-template-columns:1fr;}}
+  .reason{
+    background:#0e0e0e;
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:32px;
+    position:relative;
+  }
+  .reason .em{
+    font-size:32px; margin-bottom:18px;
+    display:inline-block;
+    transition: transform .3s;
+  }
+  .reason:hover .em{ transform: translateY(-6px) rotate(-8deg);}
+  .reason h4{
+    font-family:var(--display); font-weight:500;
+    font-size:24px; letter-spacing:-.01em; margin-bottom:12px;
+  }
+  .reason p{ color:var(--ink-dim); font-size:14.5px; line-height:1.55;}
+
+  /* PRICING */
+  .pricing-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:14px;
+    margin-top: 60px;
+  }
+  @media(max-width:980px){.pricing-grid{grid-template-columns:1fr;}}
+  .tier{
+    background:#0e0e0e;
+    border:1px solid var(--line);
+    border-radius:24px;
+    padding:36px;
+    display:flex; flex-direction:column; gap:24px;
+    position:relative;
+    overflow:hidden;
+    transition: transform .4s cubic-bezier(.2,.8,.2,1), border-color .3s;
+  }
+  .tier:hover{transform:translateY(-6px); border-color:#2c2c2c;}
+  .tier.featured{
+    background: linear-gradient(180deg, #1a0d0e 0%, #0e0e0e 100%);
+    border-color: rgba(230,50,50,.3);
+  }
+  .tier.featured::before{
+    content:"Most popular";
+    position:absolute; top:18px; right:18px;
+    font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--red); font-weight:600;
+    background:rgba(230,50,50,.12);
+    border:1px solid rgba(230,50,50,.3);
+    padding: 5px 10px; border-radius:999px;
+  }
+  .tier .head h3{
+    font-family:var(--display); font-weight:500;
+    font-size:28px; letter-spacing:-.01em; margin-bottom:6px;
+  }
+  .tier .head .tag{
+    font-size:13px; color:var(--ink-dim); line-height:1.4;
+  }
+  .tier .price-row{
+    display:flex; align-items:baseline; gap:8px;
+    padding: 18px 0;
+    border-top:1px solid var(--line);
+    border-bottom:1px solid var(--line);
+  }
+  .tier .price-row .amt{
+    font-family:var(--display);
+    font-size:54px; font-weight:400; letter-spacing:-.03em; line-height:1;
+  }
+  .tier .price-row .unit{
+    color:var(--ink-dim); font-size:14px;
+  }
+  .tier .price-row .from{
+    font-family:var(--sans);
+    font-size:11px; color:var(--ink-dim); letter-spacing:.18em;
+    text-transform:uppercase; margin-right:6px;
+  }
+  .tier ul.feat{
+    list-style:none; display:flex; flex-direction:column; gap:12px;
+  }
+  .tier ul.feat li{
+    display:flex; align-items:flex-start; gap:10px;
+    font-size:14px; line-height:1.5;
+  }
+  .tier ul.feat li svg{flex:none; color:var(--red); margin-top:3px;}
+  .tier .tier-cta{
+    margin-top:auto;
+    background:var(--ink); color:#0a0a0a;
+    padding:14px 22px; border-radius:999px;
+    font-size:13.5px; font-weight:600;
+    text-align:center;
+    transition: background .2s, transform .2s;
+  }
+  .tier .tier-cta:hover{background:#fff; transform:translateY(-2px);}
+  .tier.featured .tier-cta{background:var(--red); color:#fff;}
+  .tier.featured .tier-cta:hover{background:var(--red-soft);}
+
+  .tier .price-row .was{
+    font-family:var(--display);
+    font-size:22px; color:var(--ink-dim);
+    text-decoration: line-through;
+    text-decoration-color: var(--red);
+    text-decoration-thickness: 2px;
+    margin-right: 4px;
+  }
+  .tier .ai-note{
+    margin-top: -6px;
+    padding: 12px 14px;
+    background: rgba(230,50,50,.06);
+    border:1px solid rgba(230,50,50,.18);
+    border-radius:12px;
+    font-size:12px; line-height:1.5; color:var(--ink-dim);
+  }
+  .tier .ai-note strong{color:var(--ink); font-weight:500;}
+  .tier .ai-note .it{font-style:italic;}
+
+  /* ADD-ONS */
+  .addons{
+    background:#070707;
+    border-top:1px solid var(--line); border-bottom:1px solid var(--line);
+  }
+  .addons-grid{
+    display:grid; grid-template-columns: repeat(3,1fr); gap:14px;
+    margin-top:60px;
+  }
+  @media(max-width:900px){.addons-grid{grid-template-columns:1fr;}}
+  .addon{
+    background:#0e0e0e;
+    border:1px solid var(--line);
+    border-radius:20px;
+    padding:28px;
+    position:relative;
+    display:flex; flex-direction:column;
+    transition: transform .3s, border-color .3s;
+  }
+  .addon:hover{transform:translateY(-4px); border-color:#2c2c2c;}
+  .addon.bundle{
+    background: linear-gradient(135deg, #1a0d0e 0%, #0e0e0e 70%);
+    border-color: rgba(230,50,50,.3);
+  }
+  .addon .em{ font-size:34px; margin-bottom:16px;}
+  .addon h4{
+    font-family:var(--display); font-weight:500;
+    font-size:22px; letter-spacing:-.01em; margin-bottom:6px;
+  }
+  .addon p{
+    color:var(--ink-dim); font-size:13.5px; line-height:1.55;
+    margin-bottom:24px;
+  }
+  .addon .price{
+    margin-top:auto;
+    display:flex; align-items:baseline; justify-content:space-between;
+    padding-top:18px; border-top:1px solid var(--line);
+  }
+  .addon .price .amt{
+    font-family:var(--display);
+    font-size:32px; letter-spacing:-.02em; font-weight:400;
+  }
+  .addon .price .save{
+    font-size:11px; color:var(--red); letter-spacing:.14em;
+    text-transform:uppercase; font-weight:600;
+    background:rgba(230,50,50,.12); padding:4px 10px; border-radius:999px;
+    border:1px solid rgba(230,50,50,.3);
+  }
+
+  /* SEO RETAINERS */
+  .seo-grid{
+    display:grid; grid-template-columns: 1fr 1fr;
+    gap:14px; margin-top:60px;
+  }
+  @media(max-width:780px){.seo-grid{grid-template-columns:1fr;}}
+  .seo{
+    background:#0e0e0e; border:1px solid var(--line);
+    border-radius:24px; padding:40px;
+    display:flex; flex-direction:column; gap:24px;
+    position:relative; overflow:hidden;
+  }
+  .seo.growth{
+    background: linear-gradient(135deg, #0e1a13 0%, #0e0e0e 100%);
+    border-color: rgba(31,138,91,.3);
+  }
+  .seo .badge{
+    align-self:flex-start;
+    font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink); background:rgba(255,255,255,.06);
+    padding:6px 12px; border-radius:999px;
+    border:1px solid var(--line); font-weight:600;
+  }
+  .seo.growth .badge{background:rgba(31,138,91,.14); color:var(--green); border-color:rgba(31,138,91,.3);}
+  .seo h3{
+    font-family:var(--display); font-weight:400;
+    font-size:42px; letter-spacing:-.025em; line-height:1;
+  }
+  .seo h3 .tm{font-size:.4em; color:var(--ink-dim); vertical-align:top;}
+  .seo .price-line{
+    display:flex; align-items:baseline; gap:8px;
+    border-top:1px solid var(--line); padding-top:18px;
+  }
+  .seo .price-line .amt{
+    font-family:var(--display);
+    font-size:46px; letter-spacing:-.03em; font-weight:400;
+  }
+  .seo .price-line .per{color:var(--ink-dim); font-size:14px;}
+  .seo ul{list-style:none; display:flex; flex-direction:column; gap:10px;}
+  .seo ul li{
+    display:flex; align-items:flex-start; gap:10px;
+    font-size:14px; line-height:1.5; color:var(--ink);
+  }
+  .seo ul li svg{flex:none; color:var(--red); margin-top:3px;}
+  .seo.growth ul li svg{color:var(--green);}
+  .seo .seo-cta{
+    margin-top:8px; align-self:flex-start;
+    display:inline-flex; align-items:center; gap:10px;
+    padding:14px 22px; border-radius:999px;
+    background:var(--ink); color:#0a0a0a;
+    font-size:13.5px; font-weight:600;
+    transition: transform .2s, background .2s;
+  }
+  .seo .seo-cta:hover{transform:translateY(-2px); background:#fff;}
+  .seo.growth .seo-cta{background:var(--green); color:#fff;}
+  .seo.growth .seo-cta:hover{background:#27a26d;}
+
+  /* HERO TRUST ROW */
+  .hero-trust{
+    display:flex; align-items:center; gap:14px;
+    margin-top:36px;
+    font-size:13.5px; color:var(--ink-dim);
+  }
+  .hero-trust .avatars{display:flex;}
+  .hero-trust .avatars i{
+    display:block;
+    width:30px; height:30px; border-radius:50%;
+    border:2px solid #0a0a0a;
+    margin-left:-8px;
+    background-size:cover; background-position:center;
+  }
+  .hero-trust .avatars i:first-child{margin-left:0;}
+  .hero-trust .avatars i:nth-child(1){background:linear-gradient(135deg,#e63232,#7a1818);}
+  .hero-trust .avatars i:nth-child(2){background:linear-gradient(135deg,#f1a13a,#7a4818);}
+  .hero-trust .avatars i:nth-child(3){background:linear-gradient(135deg,#3a6df0,#162a6e);}
+  .hero-trust .avatars i:nth-child(4){background:linear-gradient(135deg,#1f8a5b,#0c3a26);}
+
+  /* ENQUIRY SECTION */
+  .enquire{
+    padding: 140px 40px;
+    position:relative;
+    overflow:hidden;
+    border-top:1px solid var(--line);
+  }
+  .enquire::before{
+    content:""; position:absolute; inset:0;
+    background:
+      radial-gradient(50% 50% at 20% 30%, rgba(230,50,50,.10), transparent 70%),
+      radial-gradient(40% 40% at 80% 70%, rgba(241,161,58,.06), transparent 70%);
+    pointer-events:none;
+  }
+  .enq-grid{
+    display:grid;
+    grid-template-columns: 1fr 1.4fr;
+    gap: 48px;
+    align-items:start;
+  }
+  @media(max-width:980px){.enq-grid{grid-template-columns:1fr; gap: 32px;}}
+  .enq-intro h2{
+    font-family:var(--display); font-weight:400;
+    font-size:clamp(40px, 5vw, 68px); line-height:1;
+    letter-spacing:-.028em;
+    margin-bottom:24px;
+    text-wrap:balance;
+  }
+  .enq-intro h2 .it{font-style:italic; color:var(--ink-dim);}
+  .enq-intro p{
+    color:var(--ink-dim); font-size:16px; line-height:1.55;
+    max-width:42ch;
+    margin-bottom:32px;
+  }
+  .enq-perks{
+    display:flex; flex-direction:column; gap:14px;
+  }
+  .enq-perk{
+    display:flex; gap:14px; align-items:flex-start;
+    padding:14px 18px;
+    background:#0e0e0e;
+    border:1px solid var(--line);
+    border-radius:14px;
+  }
+  .enq-perk .em{font-size:22px; flex:none;}
+  .enq-perk strong{
+    display:block;
+    font-family:var(--display);
+    font-size:18px; font-weight:500;
+    letter-spacing:-.005em; margin-bottom:2px;
+    color:var(--ink);
+  }
+  .enq-perk small{
+    color:var(--ink-dim); font-size:13.5px;
+    line-height:1.5; display:block;
+  }
+
+  /* Form */
+  .enq-card{
+    background:#0e0e0e;
+    border:1px solid var(--line);
+    border-radius:28px;
+    padding:40px;
+    position:relative; overflow:hidden;
+  }
+  .enq-card::before{
+    content:""; position:absolute; right:-30%; top:-30%;
+    width:420px; height:420px; border-radius:50%;
+    background: radial-gradient(circle, rgba(230,50,50,.08), transparent 70%);
+    pointer-events:none;
+  }
+  .enq-head{
+    margin-bottom:28px;
+    position:relative;
+    display:flex; align-items:center; justify-content:space-between;
+    gap:16px; flex-wrap:wrap;
+  }
+  .enq-head h3{
+    font-family:var(--display); font-weight:400;
+    font-size:clamp(26px, 3vw, 32px);
+    letter-spacing:-.01em; line-height:1.05;
+  }
+  .enq-head h3 .it{font-style:italic; color:var(--ink-dim);}
+  .enq-head .step{
+    font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-dim); font-weight:600;
+    padding:6px 12px; border-radius:999px;
+    border:1px solid var(--line); background:rgba(255,255,255,.02);
+  }
+  .enq-head .step b{color:var(--red);}
+
+  form.enq-form{display:flex; flex-direction:column; gap:22px; position:relative;}
+  .enq-form .row-2{display:grid; grid-template-columns:1fr 1fr; gap:14px;}
+  @media(max-width:560px){.enq-form .row-2{grid-template-columns:1fr;}}
+  .enq-form .field{display:flex; flex-direction:column; gap:8px; position:relative;}
+  .enq-form label{
+    font-size:11px; letter-spacing:.16em;
+    text-transform:uppercase;
+    color:var(--ink-dim); font-weight:600;
+  }
+  .enq-form label .req{color:var(--red); margin-left:3px;}
+  .enq-form input, .enq-form textarea, .enq-form select{
+    background:#0a0a0a;
+    border:1px solid var(--line);
+    color:var(--ink);
+    font-family:var(--sans);
+    font-size:15px;
+    padding: 14px 16px;
+    border-radius:12px;
+    outline:none;
+    transition: border-color .2s, background .2s;
+    resize:none;
+  }
+  .enq-form input:hover, .enq-form textarea:hover, .enq-form select:hover{border-color:#2c2c2c;}
+  .enq-form input:focus, .enq-form textarea:focus, .enq-form select:focus{
+    border-color:var(--red); background:#101010;
+  }
+  .enq-form input::placeholder, .enq-form textarea::placeholder{color:#5b5750;}
+  .enq-form textarea{min-height:90px; line-height:1.5;}
+
+  /* Package picker — large radio cards */
+  .pkg-grid{
+    display:grid; grid-template-columns: repeat(2, 1fr); gap:10px;
+  }
+  @media(max-width:560px){.pkg-grid{grid-template-columns:1fr;}}
+  .pkg{
+    position:relative;
+    background:#0a0a0a;
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding: 14px 16px;
+    cursor:pointer;
+    transition: all .2s;
+    display:flex; align-items:center; gap:12px;
+  }
+  .pkg:hover{border-color:#2c2c2c;}
+  .pkg input{display:none;}
+  .pkg .em{font-size:22px; flex:none;}
+  .pkg .meta{flex:1; min-width:0;}
+  .pkg .meta .name{
+    font-family:var(--display); font-size:17px;
+    letter-spacing:-.005em; font-weight:500;
+    display:block;
+  }
+  .pkg .meta .px{
+    font-size:12px; color:var(--ink-dim);
+    font-family: var(--mono); margin-top:2px;
+    display:block;
+  }
+  .pkg .dot{
+    flex:none;
+    width:18px; height:18px; border-radius:50%;
+    border:1.5px solid var(--line); background:transparent;
+    transition: all .2s;
+  }
+  .pkg.checked{
+    background: rgba(230,50,50,.08);
+    border-color: rgba(230,50,50,.45);
+  }
+  .pkg.checked .dot{
+    border-color: var(--red);
+    background: var(--red);
+    box-shadow: inset 0 0 0 3px #0a0a0a;
+  }
+  .pkg.checked .name{color:#fff;}
+
+  /* Business type chips (multi-select w/ "Other" text) */
+  .biz-row{
+    display:flex; flex-wrap:wrap; gap:8px;
+  }
+  .biz-chip{
+    display:inline-flex; align-items:center; gap:6px;
+    padding: 9px 14px; border-radius:999px;
+    background:#0a0a0a;
+    border:1px solid var(--line);
+    font-size:13px; font-weight:500;
+    color:var(--ink-dim);
+    cursor:pointer; transition: all .2s; user-select:none;
+  }
+  .biz-chip .em{font-size:14px;}
+  .biz-chip:hover{border-color:#2c2c2c; color:var(--ink);}
+  .biz-chip input{display:none;}
+  .biz-chip.checked{
+    background: rgba(230,50,50,.10);
+    border-color: rgba(230,50,50,.4);
+    color: #fff;
+  }
+  .biz-chip.checked::before{
+    content:"✓"; margin-right:2px; color: var(--red); font-weight:600;
+  }
+
+  /* Submit */
+  .enq-submit{
+    margin-top:8px;
+    display:flex; align-items:center; justify-content:space-between;
+    flex-wrap:wrap; gap:12px;
+  }
+  .enq-submit button{
+    display:inline-flex; align-items:center; gap:10px;
+    background:var(--red); color:#fff;
+    padding:16px 28px; border-radius:999px;
+    font-size:14.5px; font-weight:600;
+    transition: background .2s, transform .2s;
+  }
+  .enq-submit button:hover{background:var(--red-soft); transform:translateY(-2px);}
+  .enq-submit button .arr{transition: transform .2s;}
+  .enq-submit button:hover .arr{transform: translateX(4px);}
+  .enq-submit button:disabled{opacity:.6; cursor:not-allowed; transform:none;}
+  .enq-submit .note{
+    font-size:12.5px; color:var(--ink-dim);
+    max-width:280px; line-height:1.5;
+  }
+  .enq-submit .note b{color:var(--ink); font-weight:600;}
+
+  /* Success */
+  .enq-success{
+    display:none;
+    background: linear-gradient(135deg, rgba(31,138,91,.14) 0%, rgba(31,138,91,.04) 100%);
+    border: 1px solid rgba(31,138,91,.3);
+    border-radius:20px;
+    padding:36px;
+    text-align:center;
+  }
+  .enq-success.show{display:block; animation: pop .5s cubic-bezier(.2,.8,.2,1);}
+  @keyframes pop{from{transform:scale(.94); opacity:0;} to{transform:none; opacity:1;}}
+  .enq-success .check{
+    width:64px; height:64px; border-radius:50%;
+    background: var(--green);
+    display:flex; align-items:center; justify-content:center;
+    margin: 0 auto 18px;
+    color:#fff;
+  }
+  .enq-success h3{
+    font-family:var(--display); font-weight:400;
+    font-size:30px; letter-spacing:-.01em; margin-bottom:10px;
+  }
+  .enq-success h3 .it{font-style:italic; color:var(--ink-dim);}
+  .enq-success p{color:var(--ink-dim); line-height:1.55; max-width:46ch; margin:0 auto 24px;}
+  .enq-success .next{
+    display:inline-flex; align-items:center; gap:6px;
+    color:var(--ink); font-size:13px; font-weight:600;
+    letter-spacing:.04em;
+    border:1px solid var(--line); padding:10px 18px; border-radius:999px;
+  }
+
+  /* PROCESS TIMELINE */
+  .process{ padding: 160px 40px;}
+  .proc-list{ margin-top:60px;}
+  .proc{
+    display:grid;
+    grid-template-columns: 80px 240px 1fr 100px;
+    gap:32px;
+    padding: 32px 0;
+    border-top:1px solid var(--line);
+    align-items:center;
+    transition: padding-left .4s ease;
+  }
+  .proc:last-child{border-bottom:1px solid var(--line);}
+  .proc:hover{padding-left:16px;}
+  .proc .num{font-family:var(--display); font-style:italic; color:var(--red); font-size:24px;}
+  .proc h4{font-family:var(--display); font-weight:400; font-size:28px; letter-spacing:-.01em; line-height:1;}
+  .proc p{color:var(--ink-dim); font-size:14.5px; line-height:1.55;}
+  .proc .when{
+    text-align:right;
+    font-size:11px; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--ink-dim); font-weight:600;
+  }
+  @media(max-width:780px){
+    .proc{grid-template-columns:1fr; gap:8px; padding: 24px 0;}
+    .proc .when{text-align:left;}
+  }
+
+  /* FAQ */
+  .faq{padding:160px 40px; background:#070707; border-top:1px solid var(--line);}
+  .faq-list{border-top:1px solid var(--line); margin-top:40px;}
+  details{
+    border-bottom:1px solid var(--line);
+    padding: 26px 0;
+  }
+  summary{
+    list-style:none; cursor:pointer;
+    display:flex; justify-content:space-between; align-items:center;
+    gap:24px;
+    font-family:var(--display);
+    font-size:clamp(20px, 2.2vw, 26px); font-weight:400; letter-spacing:-.01em;
+  }
+  summary::-webkit-details-marker{display:none;}
+  summary .plus{
+    flex:none;
+    width:36px; height:36px; border-radius:50%;
+    border:1px solid var(--line);
+    display:flex; align-items:center; justify-content:center;
+    transition: transform .3s, background .3s, color .3s, border-color .3s;
+    color:var(--ink-dim);
+  }
+  details[open] summary .plus{
+    transform:rotate(45deg);
+    background:var(--red); border-color:var(--red); color:#fff;
+  }
+  details p{
+    margin-top:16px; max-width:62ch;
+    color:var(--ink-dim); line-height:1.6; font-size:15px;
+  }
+
+  /* CTA */
+  .cta-strip{
+    padding:160px 40px; text-align:center;
+    position:relative; overflow:hidden;
+  }
+  .cta-strip::before{
+    content:""; position:absolute; inset:0;
+    background: radial-gradient(50% 60% at 50% 50%, rgba(230,50,50,.18), transparent 70%);
+    pointer-events:none;
+  }
+  .cta-strip h2{
+    font-family:var(--display); font-weight:400;
+    font-size:clamp(48px, 7.8vw, 110px); line-height:1;
+    letter-spacing:-.03em; margin-bottom:28px;
+    position:relative; z-index:2;
+  }
+  .cta-strip h2 .it{font-style:italic;}
+  .cta-strip .sub{
+    max-width:540px; margin:0 auto 36px;
+    color:var(--ink-dim); font-size:17px; line-height:1.55;
+    position:relative; z-index:2;
+  }
+  .cta-buttons{display:flex; gap:14px; justify-content:center; flex-wrap:wrap; position:relative; z-index:2;}
+
+  /* FOOTER */
+  footer{
+    background:#060606;
+    padding: 80px 40px 40px;
+    border-top:1px solid var(--line);
+  }
+  .foot-grid{
+    display:grid; grid-template-columns: 2fr 1fr 1fr 1fr;
+    gap:48px; max-width:1280px; margin:0 auto;
+  }
+  @media(max-width:780px){.foot-grid{grid-template-columns:1fr 1fr; gap:32px;}}
+  .foot-brand{font-family:var(--display); font-size:64px; line-height:.9; letter-spacing:-.03em;}
+  .foot-brand .dot{display:inline-block; width:.22em; height:.22em; border-radius:50%; background:var(--red); vertical-align:baseline; margin-left:.05em;}
+  .foot-brand .sub{font-family:var(--sans); font-size:14px; color:var(--ink-dim); margin-top:16px; max-width:280px; line-height:1.5;}
+  .foot-col h5{font-size:11px; letter-spacing:.22em; text-transform:uppercase; color:var(--ink-dim); font-weight:600; margin-bottom:18px;}
+  .foot-col ul{list-style:none; display:flex; flex-direction:column; gap:10px;}
+  .foot-col a{font-size:14.5px; color:var(--ink); transition:color .2s;}
+  .foot-col a:hover{color:var(--red);}
+  .foot-bottom{
+    max-width:1280px; margin:60px auto 0;
+    padding-top:24px; border-top:1px solid var(--line);
+    display:flex; justify-content:space-between; align-items:center;
+    color:var(--ink-dim); font-size:13px; flex-wrap:wrap; gap:12px;
+  }
+
+  /* Reveal */
+  .reveal{opacity:0; transform: translateY(40px); transition: opacity 1s ease, transform 1.1s cubic-bezier(.2,.8,.2,1);}
+  .reveal.in{opacity:1; transform:none;}
+  .reveal.d1{transition-delay:.1s;}
+  .reveal.d2{transition-delay:.2s;}
+  .reveal.d3{transition-delay:.3s;}
+
+  /* Cursor */
+  .cursor{
+    position:fixed; left:0; top:0;
+    width:10px; height:10px; border-radius:50%;
+    background:var(--red);
+    pointer-events:none; z-index:200;
+    transform: translate(-50%,-50%);
+    transition: width .3s, height .3s, background .3s, opacity .3s;
+    mix-blend-mode: difference;
+    opacity:0;
+  }
+  @media(hover:hover){.cursor{opacity:1;}}
+
+  /* ── MOBILE NAV ── */
+  .ham{display:none;flex-direction:column;justify-content:center;gap:5px;padding:6px;background:none;border:none;cursor:pointer;z-index:200;margin-left:8px;}
+  .ham span{display:block;width:22px;height:2px;background:var(--ink);border-radius:2px;transition:transform .3s,opacity .3s;}
+  .ham.open span:nth-child(1){transform:translateY(7px) rotate(45deg);}
+  .ham.open span:nth-child(2){opacity:0;}
+  .ham.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg);}
+  @media(max-width:1180px){.ham{display:flex;}}
+  .mob-drawer{position:fixed;top:0;right:-100%;width:min(320px,100%);height:100dvh;background:#0d0d0d;border-left:1px solid #1f1f1f;z-index:150;padding:90px 28px 40px;display:flex;flex-direction:column;gap:28px;transition:right .35s cubic-bezier(.2,.8,.2,1);overflow-y:auto;}
+  .mob-drawer.open{right:0;}
+  .mob-overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:140;backdrop-filter:blur(4px);}
+  .mob-overlay.open{display:block;}
+  .mob-drawer ul{list-style:none;display:flex;flex-direction:column;gap:4px;}
+  .mob-drawer ul li a{font-family:var(--display);font-size:clamp(22px,6vw,28px);font-weight:400;color:rgba(245,243,238,.6);display:block;padding:10px 0;border-bottom:1px solid #1f1f1f;transition:color .2s;}
+  .mob-drawer ul li a:hover{color:#f5f3ee;}
+  .mob-drawer .mob-cta{display:inline-flex;align-items:center;gap:8px;background:#e63232;color:#fff;padding:13px 22px;border-radius:999px;font-weight:600;font-size:14px;width:fit-content;margin-top:8px;}
+  /* ── MOBILE GENERAL ── */
+  @media(max-width:768px){
+    .hero{padding:120px 20px 60px!important;}
+    .hero h1{font-size:clamp(40px,12vw,80px)!important;}
+    .hero .sub{font-size:15px!important;}
+    section{padding-left:20px!important;padding-right:20px!important;}
+    .wrap{padding-left:20px;padding-right:20px;}
+    .svc-grid{grid-template-columns:1fr!important;}
+    .foot-grid{grid-template-columns:1fr!important;gap:32px!important;}
+    .nav,.nav.scrolled{padding:12px 16px!important;}
+  }
+</style>
+</head>
+<body>
+
+<div class="cursor" id="cursor"></div>
+
+<!-- NAV -->
+<nav class="nav">
+  <a class="brand" href="Teamdots.html" aria-label="Teamdots">
+    <span>Team</span><span class="dot"></span>
+  </a>
+  <ul>
+    <li><a href="Services.html">Services</a></li>
+    <li><a href="Team.html">Team</a></li>
+    <li><a href="Collaborations.html">Our Clients</a></li>
+    <li><a href="Website-Revamp.html" class="active">Revamp</a></li>
+    <li><a href="Free-Downloads.html">Free Downloads</a></li>
+    <li><a href="Blog.html">Journal</a></li>
+    <li><a href="Onam-2026.html" style="color:#E54B1A;">Onam &#39;26</a></li>
+    <li><a href="Contact.html">Contact</a></li>
+  </ul>
+  <a class="cta-btn" href="#enquire">Get a quote →</a>
+  <button class="ham" id="ham" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+</nav>
+
+<!-- BANNER -->
+<div class="banner" aria-hidden="true">
+  <div class="banner-track">
+    <span>🎉 Launch offer — Website Revamp at ₹44K</span>
+    <span>Ready in 14 days</span>
+    <span>Built for the AI era</span>
+    <span>Pay 50% to start</span>
+    <span>🎉 Launch offer — Website Revamp at ₹44K</span>
+    <span>Ready in 14 days</span>
+    <span>Built for the AI era</span>
+    <span>Pay 50% to start</span>
+  </div>
+</div>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow reveal" data-reveal>
+          <span class="pulse"></span> Website Revamp Campaign · 2026
+        </div>
+        <h1 class="title reveal d1" data-reveal>
+          Your <span class="strike">old website</span><br/>
+          <span class="it">is losing you</span> deals</h1>
+        <p class="sub reveal d2" data-reveal>
+          Get a fast, beautiful, AI-ready website in 14 days. Built to convert humans, indexed for Google, and structured so LLMs cite you instead of your competitors.
+        </p>
+        <div class="hero-ctas reveal d3" data-reveal>
+          <a class="btn btn-primary" href="#enquire">Get my quote →</a>
+          <a class="btn btn-ghost" href="#pricing">See packages</a>
+        </div>
+        <div class="hero-trust reveal d3" data-reveal>
+          <span class="avatars"><i></i><i></i><i></i><i></i></span>
+          <span><strong style="color:var(--ink);">48 brands</strong> revamped in the last 12 months · replies in <strong style="color:var(--ink);">under 24h</strong></span>
+        </div>
+      </div>
+
+      <div class="reveal d2" data-reveal>
+        <div class="preview" id="preview">
+          <div class="bar">
+            <div class="dots"><i></i><i></i><i></i></div>
+            <div class="url"><span>yourbrand.com</span></div>
+          </div>
+          <div class="ba-label before">Before</div>
+          <div class="ba-label after">After</div>
+          <div class="scene">
+            <div class="layer before">
+              <div class="junk">
+                <h3>Welcome to Our Company</h3>
+                <div class="ad">CLICK HERE!!!</div>
+                <div class="row"></div>
+                <div class="row s"></div>
+                <div class="img"></div>
+                <div class="row"></div>
+                <div class="row s"></div>
+                <div class="btn-old">Submit Form</div>
+              </div>
+            </div>
+            <div class="layer after">
+              <div class="new">
+                <span class="pill">● The next chapter</span>
+                <h3>Stories that <span class="it">scale</span> brands</h3>
+                <div class="row"></div>
+                <div class="row s"></div>
+                <div class="pic"></div>
+                <div class="row"></div>
+                <div class="row s"></div>
+                <span class="btn-new">Start a project →</span>
+              </div>
+            </div>
+            <div class="handle"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- WHY -->
+<section class="why">
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>Why revamp now</div>
+    <h2 class="section reveal d1" data-reveal>Your website is the <span class="it">first impression</span><br/>your brand keeps making</h2>
+    <p class="sec-lede reveal d2" data-reveal>If it loads slow, looks 2018, or reads like a brochure — you're losing the deal before the call. The AI era made the bar higher, not lower.</p>
+
+    <div class="stat-strip reveal d2" data-reveal>
+      <div class="stat-cell">
+        <div class="n">88<span class="pct">%</span></div>
+        <div class="lab">of buyers won't return after a bad website experience</div>
+      </div>
+      <div class="stat-cell">
+        <div class="n">3s<span class="pct"></span></div>
+        <div class="lab">page-load delay drops conversions by ~40%</div>
+      </div>
+      <div class="stat-cell">
+        <div class="n">75<span class="pct">%</span></div>
+        <div class="lab">judge company credibility from website design alone</div>
+      </div>
+      <div class="stat-cell">
+        <div class="n">2.4×<span class="pct"></span></div>
+        <div class="lab">higher trust when an LLM cites your brand by name</div>
+      </div>
+    </div>
+
+    <div class="reasons">
+      <div class="reason reveal" data-reveal>
+        <div class="em">⚡</div>
+        <h4>Speed is the new SEO</h4>
+        <p>Google's Core Web Vitals reward sites that load in under 2s. Most legacy sites don't. We rebuild for performance, not plugins.</p>
+      </div>
+      <div class="reason reveal d1" data-reveal>
+        <div class="em">🤖</div>
+        <h4>LLMs read your website</h4>
+        <p>ChatGPT, Perplexity, Gemini cite the brands they can <em>understand</em>. We structure your copy, schema and surface area so AI search picks <em>you</em>.</p>
+      </div>
+      <div class="reason reveal d2" data-reveal>
+        <div class="em">📱</div>
+        <h4>Mobile is 70% of traffic</h4>
+        <p>If your site doesn't feel native on a phone, you're losing the majority of your audience before they read a single word.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING -->
+<section id="pricing">
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>Pricing</div>
+    <h2 class="section reveal d1" data-reveal>One studio.<br/><span class="it">Three flagship</span> websites</h2>
+    <p class="sec-lede reveal d2" data-reveal>Honest, upfront pricing. No discovery fees. Pay 50% to start.</p>
+
+    <div class="pricing-grid">
+      <!-- Tier 1: Business Revamp -->
+      <div class="tier featured reveal" data-reveal>
+        <div class="head">
+          <h3>Business Website Revamp</h3>
+          <div class="tag">For brands with an existing site that's no longer doing the work.</div>
+        </div>
+        <div class="price-row">
+          <span class="was">₹1.2L</span>
+          <span class="amt">₹44K</span>
+          <span class="unit">/ one-time</span>
+        </div>
+        <div class="ai-note"><strong>AI does the code.</strong> The 70% that still moves the needle — taste, integration, content, brand judgement — is human. <span class="it">That's why ₹1.2L becomes ₹44K.</span></div>
+        <ul class="feat">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Up to 6 redesigned pages</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Fully responsive · mobile first</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>On-page SEO &amp; schema markup</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>LLM-readable copy structure</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>WhatsApp / form / Calendly integrations</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>14-day delivery · 2 revision rounds</li>
+        </ul>
+        <a class="tier-cta" href="#start">Start my revamp →</a>
+      </div>
+
+      <!-- Tier 2: Ecommerce -->
+      <div class="tier reveal d1" data-reveal>
+        <div class="head">
+          <h3>Ecommerce Funnel Website</h3>
+          <div class="tag">For D2C brands that want a store engineered to sell.</div>
+        </div>
+        <div class="price-row">
+          <span class="was">₹3.5L</span>
+          <span class="amt">₹88K</span>
+          <span class="unit">starting</span>
+        </div>
+        <div class="ai-note"><strong>Was a ₹3.5L build.</strong> AI ships the boilerplate; we keep the human craft for funnel, copy, photography. <span class="it">Same outcome, sharper price.</span></div>
+        <ul class="feat">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Shopify / WooCommerce setup</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Product pages built to convert</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Payment, COD &amp; logistics ready</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Cart abandonment + Klaviyo flows</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Analytics &amp; pixel setup</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Performance ad-ready landing pages</li>
+        </ul>
+        <a class="tier-cta" href="#start">Brief us →</a>
+      </div>
+
+      <!-- Tier 3: Custom Apps -->
+      <div class="tier reveal d2" data-reveal>
+        <div class="head">
+          <h3>Custom Web Apps</h3>
+          <div class="tag">For founders building software, not just a presence.</div>
+        </div>
+        <div class="price-row">
+          <span class="was">₹4L</span>
+          <span class="amt">₹1.5L</span>
+          <span class="unit">starting</span>
+        </div>
+        <div class="ai-note"><strong>AI scaffolds the app.</strong> Auth, payments, dashboards — fast. Architecture, security &amp; the UX still need a senior human at the wheel.</div>
+        <ul class="feat">
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Scoped MVPs &amp; dashboards</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Auth, payments, admin panels</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>AI features &amp; LLM integrations</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>API integrations &amp; automations</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Cloud hosting &amp; CI/CD setup</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>4–8 week scoped sprint</li>
+        </ul>
+        <a class="tier-cta" href="#start">Discuss scope →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ADD-ONS -->
+<section class="addons">
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>Power-ups</div>
+    <h2 class="section reveal d1" data-reveal>Optional <span class="it">add-ons</span> for the revamp</h2>
+    <p class="sec-lede reveal d2" data-reveal>Most clients add at least one. Bundle both and save ₹5K.</p>
+
+    <div class="addons-grid">
+      <div class="addon reveal" data-reveal>
+        <div class="em">✍️</div>
+        <h4>Content Rewrite</h4>
+        <p>Every word on your site rewritten by a senior copywriter — clearer, sharper, AI-readable, and written for the customer you actually want.</p>
+        <div class="price">
+          <span class="amt">₹10K</span>
+        </div>
+      </div>
+      <div class="addon reveal d1" data-reveal>
+        <div class="em">📸</div>
+        <h4>Media Add-on</h4>
+        <p>A half-day shoot with our crew — product stills, lifestyle photos and a hero reel for the website. No more stock photo regrets.</p>
+        <div class="price">
+          <span class="amt">₹10K</span>
+        </div>
+      </div>
+      <div class="addon bundle reveal d2" data-reveal>
+        <div class="em">🎁</div>
+        <h4>Both Add-ons · Bundle</h4>
+        <p>Content rewrite + media shoot, in one go. The full transformation — visuals and voice — at a sharper price.</p>
+        <div class="price">
+          <span class="amt">₹15K</span>
+          <span class="save">Save ₹5K</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SEO RETAINERS -->
+<section>
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>Keep growing</div>
+    <h2 class="section reveal d1" data-reveal>Pair it with <span class="it">SEO that compounds</span></h2>
+    <p class="sec-lede reveal d2" data-reveal>A revamp gets you a beautiful site. SEO gets you the right traffic. Add a retainer and watch your numbers move month-over-month.</p>
+
+    <div class="seo-grid">
+      <div class="seo reveal" data-reveal>
+        <span class="badge">Foundations</span>
+        <h3>SEO Lite</h3>
+        <p style="color:var(--ink-dim); font-size:14.5px; line-height:1.55;">
+          The essentials, done well. For brands who want to stop bleeding traffic before they scale spend.
+        </p>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Monthly technical audit</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Keyword tracking &amp; reporting</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>2 blog posts per month</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Schema &amp; on-page optimisation</li>
+        </ul>
+        <div class="price-line">
+          <span class="amt">₹12K</span>
+          <span class="per">/ month</span>
+        </div>
+        <a class="seo-cta" href="#start">Start with Lite →</a>
+      </div>
+
+      <div class="seo growth reveal d1" data-reveal>
+        <span class="badge">Recommended for growth-stage</span>
+        <h3>SEO Growth System<span class="tm">™</span></h3>
+        <p style="color:var(--ink-dim); font-size:14.5px; line-height:1.55;">
+          Our flagship retainer. The full machine — content, authority, AI search — running every week.
+        </p>
+        <ul>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Everything in SEO Lite</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>4–6 long-form articles / month</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Backlink outreach &amp; digital PR</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>AI-search (LLM) optimisation</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Weekly strategy call</li>
+          <li><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12l5 5L20 7"/></svg>Conversion-rate experiments</li>
+        </ul>
+        <div class="price-line">
+          <span class="amt">₹21K</span>
+          <span class="per">/ month</span>
+        </div>
+        <a class="seo-cta" href="#start">Run the system →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ENQUIRY FORM -->
+<section class="enquire" id="enquire">
+  <div class="wrap">
+    <div class="enq-grid">
+      <div class="enq-intro reveal" data-reveal>
+        <div class="sec-tag">Get a quote</div>
+        <h2>Tell us about<br/>your <span class="it">website</span></h2>
+        <p>Pick a package, tell us what kind of business you run, and we'll come back with a written proposal &amp; timeline — usually within 24 hours, often the same day.</p>
+
+        <div class="enq-perks">
+          <div class="enq-perk">
+            <span class="em">⚡</span>
+            <div><strong>Reply in &lt; 24h</strong><small>From a real human, not a bot. Usually a principal.</small></div>
+          </div>
+          <div class="enq-perk">
+            <span class="em">📋</span>
+            <div><strong>Free written audit</strong><small>We'll send a 1-page audit of your current site, whether you hire us or not.</small></div>
+          </div>
+          <div class="enq-perk">
+            <span class="em">🔒</span>
+            <div><strong>No spam, ever</strong><small>One reply, one conversation. We don't add you to a newsletter.</small></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="enq-card reveal d1" data-reveal>
+        <div class="enq-head">
+          <h3>Get my <span class="it">quote</span></h3>
+          <div class="step">Step <b>1</b> / 1</div>
+        </div>
+
+        <form class="enq-form" id="enquiryForm" novalidate>
+
+          <!-- PACKAGES -->
+          <div class="field">
+            <label>Which package fits? <span class="req">*</span></label>
+            <div class="pkg-grid" id="pkgGrid">
+              <label class="pkg">
+                <input type="radio" name="pkg" value="revamp" />
+                <span class="em">🌐</span>
+                <span class="meta"><span class="name">Business Revamp</span><span class="px">₹44K · 14 days</span></span>
+                <span class="dot"></span>
+              </label>
+              <label class="pkg">
+                <input type="radio" name="pkg" value="ecom" />
+                <span class="em">🛒</span>
+                <span class="meta"><span class="name">Ecommerce Funnel</span><span class="px">₹88K+</span></span>
+                <span class="dot"></span>
+              </label>
+              <label class="pkg">
+                <input type="radio" name="pkg" value="app" />
+                <span class="em">⚙️</span>
+                <span class="meta"><span class="name">Custom Web App</span><span class="px">₹1.5L+</span></span>
+                <span class="dot"></span>
+              </label>
+              <label class="pkg">
+                <input type="radio" name="pkg" value="seo-lite" />
+                <span class="em">🔍</span>
+                <span class="meta"><span class="name">SEO Lite</span><span class="px">₹12K / month</span></span>
+                <span class="dot"></span>
+              </label>
+              <label class="pkg">
+                <input type="radio" name="pkg" value="seo-growth" />
+                <span class="em">📈</span>
+                <span class="meta"><span class="name">SEO Growth System™</span><span class="px">₹21K / month</span></span>
+                <span class="dot"></span>
+              </label>
+              <label class="pkg">
+                <input type="radio" name="pkg" value="not-sure" />
+                <span class="em">🤔</span>
+                <span class="meta"><span class="name">Not sure yet</span><span class="px">Recommend me one</span></span>
+                <span class="dot"></span>
+              </label>
+            </div>
+          </div>
+
+          <!-- BUSINESS TYPE -->
+          <div class="field">
+            <label>What kind of business? <span class="req">*</span></label>
+            <div class="biz-row" id="bizRow">
+              <label class="biz-chip"><input type="checkbox" name="biz" value="d2c" /><span class="em">🛍️</span> D2C / Ecommerce</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="saas" /><span class="em">💻</span> SaaS / Tech</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="agency" /><span class="em">🎨</span> Agency / Studio</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="services" /><span class="em">🤝</span> Professional services</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="food" /><span class="em">🍴</span> Food &amp; Beverage</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="wellness" /><span class="em">🧘</span> Wellness / Beauty</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="fashion" /><span class="em">👗</span> Fashion / Apparel</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="edu" /><span class="em">🎓</span> Education / EdTech</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="health" /><span class="em">🏥</span> Healthcare</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="realestate" /><span class="em">🏠</span> Real Estate</label>
+              <label class="biz-chip"><input type="checkbox" name="biz" value="events" /><span class="em">💍</span> Events / Weddings</label>
+              <label class="biz-chip" data-other><input type="checkbox" name="biz" value="other" /><span class="em">✨</span> Other</label>
+            </div>
+          </div>
+
+          <!-- Other text reveal -->
+          <div class="field" id="otherWrap" style="display:none;">
+            <label for="otherBiz">Tell us what you do</label>
+            <input type="text" id="otherBiz" name="otherBiz" placeholder="e.g. Plant nursery, podcast network, B2B fintech…" />
+          </div>
+
+          <!-- CONTACT -->
+          <div class="row-2">
+            <div class="field">
+              <label for="eName">Your name <span class="req">*</span></label>
+              <input id="eName" name="name" type="text" placeholder="e.g. Aarav Mehta" required />
+            </div>
+            <div class="field">
+              <label for="eBrand">Business / brand <span class="req">*</span></label>
+              <input id="eBrand" name="brand" type="text" placeholder="Your brand name" required />
+            </div>
+          </div>
+
+          <div class="row-2">
+            <div class="field">
+              <label for="eEmail">Email <span class="req">*</span></label>
+              <input id="eEmail" name="email" type="email" placeholder="you@brand.com" required />
+            </div>
+            <div class="field">
+              <label for="ePhone">WhatsApp / phone</label>
+              <input id="ePhone" name="phone" type="tel" placeholder="+91 99999 99999" />
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="eSite">Current website (if any)</label>
+            <input id="eSite" name="website" type="url" placeholder="https://" />
+          </div>
+
+          <div class="field">
+            <label for="eMsg">Anything else we should know?</label>
+            <textarea id="eMsg" name="message" placeholder="Goals, timeline, references you like, etc. Keep it short."></textarea>
+          </div>
+
+          <div class="enq-submit">
+            <button type="submit">Send enquiry <span class="arr">→</span></button>
+            <div class="note">We'll reply in <b>under 24 hours</b> with a written proposal &amp; timeline.</div>
+          </div>
+        </form>
+
+        <div class="enq-success" id="enqSuccess">
+          <div class="check">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5L20 7"/></svg>
+          </div>
+          <h3>Enquiry <span class="it">received</span></h3>
+          <p>We'll reply within 24 hours from <strong style="color:var(--ink);">helloteam@teamdots.in</strong> with a proposal, timeline, and three reference projects.</p>
+          <a class="next" href="Teamdots.html#work">See our work →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- PROCESS -->
+<section class="process">
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>How the revamp works</div>
+    <h2 class="section reveal d1" data-reveal>Live in <span class="it">14 days</span>. Honestly</h2>
+
+    <div class="proc-list">
+      <div class="proc reveal" data-reveal>
+        <div class="num">i.</div>
+        <h4>Audit &amp; brief</h4>
+        <p>Free 30-min discovery + a written audit of your current site. You decide if we're a fit.</p>
+        <div class="when">Day 0–1</div>
+      </div>
+      <div class="proc reveal" data-reveal>
+        <div class="num">ii.</div>
+        <h4>Sitemap &amp; copy</h4>
+        <p>We map the new site structure, draft the messaging, and align on the look &amp; feel.</p>
+        <div class="when">Day 2–4</div>
+      </div>
+      <div class="proc reveal" data-reveal>
+        <div class="num">iii.</div>
+        <h4>Design</h4>
+        <p>Hi-fidelity pages designed in-house — modern, mobile-first, on-brand.</p>
+        <div class="when">Day 5–8</div>
+      </div>
+      <div class="proc reveal" data-reveal>
+        <div class="num">iv.</div>
+        <h4>Build &amp; QA</h4>
+        <p>Built fast, tested on every device, accessibility-checked, SEO-validated.</p>
+        <div class="when">Day 9–12</div>
+      </div>
+      <div class="proc reveal" data-reveal>
+        <div class="num">v.</div>
+        <h4>Launch</h4>
+        <p>DNS, redirects, analytics, and post-launch handover. You own it. We support it.</p>
+        <div class="when">Day 13–14</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq">
+  <div class="wrap">
+    <div class="sec-tag reveal" data-reveal>FAQ</div>
+    <h2 class="section reveal d1" data-reveal>The fine print, <span class="it">made simple</span></h2>
+
+    <div class="faq-list reveal d2" data-reveal>
+      <details open>
+        <summary>Can you really deliver in 14 days? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>Yes — for the Business Revamp scope, when content and brand assets are ready on day 1. We only take 2 revamps per fortnight so we can hold the timeline. If you need a custom scope, we'll quote a different timeline upfront.</p>
+      </details>
+      <details>
+        <summary>What platform do you build on? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>Webflow and Framer for marketing sites; Shopify for ecommerce; Next.js for custom web apps. We pick what's easiest for <em>you</em> to maintain after handover, not what's easiest for us.</p>
+      </details>
+      <details>
+        <summary>Do you do hosting and domain? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>We set up hosting + DNS + emails + SSL as part of every build. You keep ownership of the accounts — no lock-in.</p>
+      </details>
+      <details>
+        <summary>What if I don't have content or photos? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>That's exactly what the add-ons are for. Bundle the Content Rewrite + Media at ₹15K and we'll write every word and shoot every image on the new site.</p>
+      </details>
+      <details>
+        <summary>Is the SEO retainer monthly or contracted? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>3-month minimum, then month-to-month. SEO doesn't move in 30 days; we'd rather under-promise than collect a fee that doesn't deliver.</p>
+      </details>
+      <details>
+        <summary>How do payments work? <span class="plus"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg></span></summary>
+        <p>50% to start, 50% on launch. UPI, bank transfer, or Razorpay. International clients invoiced in USD/AED equivalent.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-strip" id="start">
+  <div class="wrap">
+    <h2 class="reveal" data-reveal>Let's start the<br/><span class="it">revamp</span></h2>
+    <p class="sub reveal d1" data-reveal>Book a free 30-min audit. We'll come back with a written report on what to fix — whether you hire us or not.</p>
+    <div class="cta-buttons reveal d2" data-reveal>
+      <a class="btn btn-primary" href="mailto:helloteam@teamdots.in?subject=Website%20Revamp">Book a free audit →</a>
+      <a class="btn btn-ghost" href="https://www.instagram.com/teamdots_studio/" target="_blank" rel="noopener">DM us on Instagram</a>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-grid">
+    <div>
+      <div class="foot-brand">Team<span class="dot"></span></div>
+      <p class="sub">A studio for visual storytelling, social portfolios and growth strategy. Formerly MentorDots.</p>
+    </div>
+    <div class="foot-col">
+            <h5>Studio</h5>
+      <ul>
+        <li><a href="Services.html">Services</a></li>
+        <li><a href="Team.html">Team</a></li>
+        <li><a href="Collaborations.html">Our Clients</a></li>
+        <li><a href="Website-Revamp.html">Website Revamp</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+            <h5>Resources</h5>
+      <ul>
+        <li><a href="Free-Downloads.html">Free Downloads</a></li>
+        <li><a href="Blog.html">Journal</a></li>
+        <li><a href="https://www.instagram.com/teamdots_studio/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://mentordots.com" target="_blank" rel="noopener">MentorDots</a></li>
+      </ul>
+    </div>
+    <div class="foot-col">
+      <h5>Contact</h5>
+      <ul>
+        <li><a href="mailto:helloteam@teamdots.in">helloteam@teamdots.in</a></li>
+        <li><a href="tel:+919995018669">+91 9995018669</a></li>
+        <li><a href="tel:+918590217503">+91 8590217503</a></li>
+        <li style="color:var(--ink-dim);font-size:13px;margin-top:6px;">#831, BTM 4th Stage, Bangalore</li>
+        <li style="color:var(--ink-dim);font-size:13px;">B12, PPD, Trivandrum</li>
+        <li><a href="#start">Start a project</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <div>© 2026 Teamdots Studio. All rights reserved.</div>
+    <div>Designed &amp; engineered in-house.</div>
+  </div>
+</footer>
+
+<script>
+  // Reveal observer
+  const io = new IntersectionObserver((entries) => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        e.target.classList.add('in');
+        io.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.12, rootMargin: '0px 0px -60px 0px' });
+  document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+
+  // Before/after auto reveal loop
+  const preview = document.getElementById('preview');
+  let revealed = false;
+  function toggleReveal(){
+    revealed = !revealed;
+    preview.classList.toggle('revealed', revealed);
+  }
+  // initial after 1.4s
+  setTimeout(toggleReveal, 1400);
+  setInterval(toggleReveal, 4200);
+  preview.addEventListener('click', () => {
+    revealed = !revealed;
+    preview.classList.toggle('revealed', revealed);
+  });
+
+  // ENQUIRY FORM
+  // Package picker — visual radio state
+  document.querySelectorAll('#pkgGrid .pkg').forEach(label => {
+    const input = label.querySelector('input');
+    input.addEventListener('change', () => {
+      document.querySelectorAll('#pkgGrid .pkg').forEach(p => p.classList.remove('checked'));
+      label.classList.add('checked');
+    });
+  });
+
+  // Business chips — multi-select
+  const otherWrap = document.getElementById('otherWrap');
+  document.querySelectorAll('#bizRow .biz-chip').forEach(label => {
+    const input = label.querySelector('input');
+    input.addEventListener('change', () => {
+      label.classList.toggle('checked', input.checked);
+      if (label.dataset.other !== undefined){
+        otherWrap.style.display = input.checked ? 'flex' : 'none';
+      }
+    });
+  });
+
+  // Submit
+  const enqForm = document.getElementById('enquiryForm');
+  const enqSuccess = document.getElementById('enqSuccess');
+  enqForm.addEventListener('submit', (e) => {
+    e.preventDefault();
+    let ok = true;
+    // required text fields
+    enqForm.querySelectorAll('[required]').forEach(el => {
+      if (!el.value.trim()){
+        el.style.borderColor = 'var(--red)';
+        el.addEventListener('input', () => el.style.borderColor = '', { once:true });
+        ok = false;
+      }
+    });
+    // package required
+    if (!enqForm.querySelector('input[name="pkg"]:checked')){
+      const g = document.getElementById('pkgGrid');
+      g.style.outline = '1px solid var(--red)';
+      g.style.outlineOffset = '6px';
+      g.style.borderRadius = '14px';
+      setTimeout(() => { g.style.outline = ''; }, 1400);
+      ok = false;
+    }
+    // biz at least one
+    if (enqForm.querySelectorAll('input[name="biz"]:checked').length === 0){
+      const g = document.getElementById('bizRow');
+      g.style.outline = '1px solid var(--red)';
+      g.style.outlineOffset = '6px';
+      g.style.borderRadius = '999px';
+      setTimeout(() => { g.style.outline = ''; }, 1400);
+      ok = false;
+    }
+    if (!ok){
+      enqForm.querySelector('.enq-submit button').animate(
+        [{ transform:'translateX(0)' }, { transform:'translateX(-6px)' }, { transform:'translateX(6px)' }, { transform:'translateX(0)' }],
+        { duration: 320, easing:'ease-in-out' }
+      );
+      return;
+    }
+    const btn = enqForm.querySelector('.enq-submit button');
+    btn.disabled = true;
+    btn.textContent = 'Sending…';
+    setTimeout(() => {
+      enqForm.style.display = 'none';
+      enqSuccess.classList.add('show');
+      enqSuccess.scrollIntoView({block:'nearest', behavior:'smooth'});
+    }, 700);
+  });
+
+  // ─────────── TWEAKS PANEL ───────────
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+    "accent": "#e63232",
+    "autoCycle": true,
+    "cycleSpeed": 2.5
+  }/*EDITMODE-END*/;
+
+  // Red → Yellow → Orange → (loop)
+  const ACCENT_OPTIONS = [
+    { name: 'Signal', value: '#e63232' },  // red
+    { name: 'Solar',  value: '#f5c842' },  // yellow
+    { name: 'Sunset', value: '#f1a13a' }   // orange
+  ];
+
+  let tweakState = { ...TWEAK_DEFAULTS };
+  let cycleTimer = null;
+  let cycleIdx = 0;
+
+  function lighten(hex, amt){
+    const n = parseInt(hex.slice(1), 16);
+    let r = (n >> 16) & 255, g = (n >> 8) & 255, b = n & 255;
+    r = Math.min(255, Math.round(r + (255-r)*amt));
+    g = Math.min(255, Math.round(g + (255-g)*amt));
+    b = Math.min(255, Math.round(b + (255-b)*amt));
+    return '#' + ((r<<16)|(g<<8)|b).toString(16).padStart(6,'0');
+  }
+  function applyAccent(hex){
+    document.documentElement.style.setProperty('--red', hex);
+    document.documentElement.style.setProperty('--red-soft', lighten(hex, 0.15));
+  }
+
+  function setTweak(key, val){
+    tweakState[key] = val;
+    if (key === 'accent'){
+      applyAccent(val);
+      stopCycle();
+      const tg = document.getElementById('tw-cycle-toggle');
+      if (tg) tg.dataset.on = 'false';
+      tweakState.autoCycle = false;
+    }
+    if (key === 'autoCycle'){ val ? startCycle() : stopCycle(); }
+    if (key === 'cycleSpeed' && tweakState.autoCycle){ stopCycle(); startCycle(); }
+    renderSwatches();
+    window.parent.postMessage({ type:'__edit_mode_set_keys', edits: { [key]: val } }, '*');
+  }
+
+  function startCycle(){
+    stopCycle();
+    cycleIdx = ACCENT_OPTIONS.findIndex(o => o.value.toLowerCase() === tweakState.accent.toLowerCase());
+    if (cycleIdx < 0) cycleIdx = 0;
+    cycleTimer = setInterval(() => {
+      cycleIdx = (cycleIdx + 1) % ACCENT_OPTIONS.length;
+      const nx = ACCENT_OPTIONS[cycleIdx].value;
+      tweakState.accent = nx;
+      applyAccent(nx);
+      renderSwatches();
+    }, tweakState.cycleSpeed * 1000);
+  }
+  function stopCycle(){ if (cycleTimer){ clearInterval(cycleTimer); cycleTimer = null; } }
+
+  function buildPanel(){
+    const panel = document.createElement('div');
+    panel.id = 'tweaks-panel';
+    panel.innerHTML = `
+      <div class="tw-hd">
+        <span class="tw-title">Tweaks</span>
+        <button class="tw-x" aria-label="Close">×</button>
+      </div>
+      <div class="tw-body">
+        <div class="tw-section">Accent colour</div>
+        <div class="tw-swatches" id="tw-swatches"></div>
+        <div class="tw-section">Cycle animation</div>
+        <div class="tw-row">
+          <span>Auto-cycle through colours</span>
+          <button class="tw-toggle" id="tw-cycle-toggle" data-on="false"><span></span></button>
+        </div>
+        <div class="tw-row tw-stack">
+          <div class="tw-row-h">
+            <span>Speed</span>
+            <span class="tw-val" id="tw-speed-val">4.0s</span>
+          </div>
+          <input type="range" id="tw-speed" min="1" max="10" step="0.5" value="4" />
+        </div>
+        <div class="tw-hint">Signal → Solar → Sunset → loop</div>
+      </div>
+    `;
+    document.body.appendChild(panel);
+
+    const style = document.createElement('style');
+    style.textContent = `
+      #tweaks-panel{
+        position:fixed; right:20px; bottom:20px; z-index:2147483646;
+        width:280px;
+        background:rgba(14,14,14,.86); color:#f5f3ee;
+        border:1px solid rgba(255,255,255,.08);
+        border-radius:16px;
+        backdrop-filter: blur(20px) saturate(140%);
+        -webkit-backdrop-filter: blur(20px) saturate(140%);
+        font-family: 'DM Sans', system-ui, sans-serif;
+        font-size:12.5px;
+        box-shadow: 0 20px 60px rgba(0,0,0,.5);
+        display:none; overflow:hidden;
+      }
+      #tweaks-panel.open{ display:block; animation: twkIn .3s cubic-bezier(.2,.8,.2,1);}
+      @keyframes twkIn{ from{transform:translateY(20px); opacity:0;} to{transform:none; opacity:1;} }
+      #tweaks-panel .tw-hd{
+        display:flex; align-items:center; justify-content:space-between;
+        padding: 14px 16px; border-bottom:1px solid rgba(255,255,255,.06);
+      }
+      #tweaks-panel .tw-title{
+        font-family:'Fraunces', serif;
+        font-size:16px; font-weight:500; letter-spacing:-.01em;
+      }
+      #tweaks-panel .tw-x{
+        width:24px; height:24px; border-radius:50%;
+        background:transparent; color:rgba(255,255,255,.4);
+        font-size:16px; line-height:1; border:none; cursor:pointer;
+      }
+      #tweaks-panel .tw-x:hover{background:rgba(255,255,255,.08); color:#fff;}
+      #tweaks-panel .tw-body{ padding: 16px; display:flex; flex-direction:column; gap:14px;}
+      #tweaks-panel .tw-section{
+        font-size:10px; letter-spacing:.18em; text-transform:uppercase;
+        color:rgba(255,255,255,.4); font-weight:600;
+      }
+      #tweaks-panel .tw-swatches{
+        display:grid; grid-template-columns: repeat(3, 1fr); gap:8px;
+        margin-bottom:18px;
+      }
+      #tweaks-panel .tw-sw{
+        aspect-ratio: 1; border-radius:12px;
+        border:2px solid transparent;
+        cursor:pointer; position:relative;
+        transition: transform .2s, border-color .2s;
+        background:none;
+      }
+      #tweaks-panel .tw-sw:hover{ transform:scale(1.06);}
+      #tweaks-panel .tw-sw.active{ border-color:#fff;}
+      #tweaks-panel .tw-sw .fill{ position:absolute; inset:4px; border-radius:8px;}
+      #tweaks-panel .tw-sw .name{
+        position:absolute; bottom:-18px; left:0; right:0; text-align:center;
+        font-size:10px; color:rgba(255,255,255,.5); letter-spacing:.04em;
+      }
+      #tweaks-panel .tw-row{display:flex; align-items:center; justify-content:space-between;}
+      #tweaks-panel .tw-row.tw-stack{flex-direction:column; align-items:stretch; gap:8px;}
+      #tweaks-panel .tw-row-h{display:flex; justify-content:space-between; align-items:center;}
+      #tweaks-panel .tw-val{color:rgba(255,255,255,.5); font-variant-numeric:tabular-nums;}
+      #tweaks-panel .tw-toggle{
+        width:40px; height:22px; border-radius:999px;
+        background: rgba(255,255,255,.1);
+        border:none; cursor:pointer; padding:2px;
+        position:relative; transition: background .2s;
+      }
+      #tweaks-panel .tw-toggle span{
+        display:block; width:18px; height:18px; border-radius:50%;
+        background:#fff; transition: transform .25s cubic-bezier(.2,.8,.2,1);
+      }
+      #tweaks-panel .tw-toggle[data-on="true"]{ background: var(--red);}
+      #tweaks-panel .tw-toggle[data-on="true"] span{ transform: translateX(18px);}
+      #tweaks-panel input[type=range]{
+        appearance:none; -webkit-appearance:none;
+        width:100%; height:3px; border-radius:2px;
+        background: rgba(255,255,255,.1); outline:none;
+      }
+      #tweaks-panel input[type=range]::-webkit-slider-thumb{
+        appearance:none; -webkit-appearance:none;
+        width:14px; height:14px; border-radius:50%;
+        background:var(--red); cursor:pointer;
+        box-shadow: 0 0 0 4px rgba(230,50,50,.15);
+      }
+      #tweaks-panel .tw-hint{
+        font-size:11px; color:rgba(255,255,255,.35);
+        font-style:italic; padding-top:6px;
+        border-top:1px solid rgba(255,255,255,.06);
+        margin-top:6px;
+      }
+    `;
+    document.head.appendChild(style);
+
+    panel.querySelector('.tw-x').addEventListener('click', () => {
+      panel.classList.remove('open');
+      window.parent.postMessage({ type:'__edit_mode_dismissed' }, '*');
+    });
+    panel.querySelector('#tw-cycle-toggle').addEventListener('click', () => {
+      const next = !tweakState.autoCycle;
+      panel.querySelector('#tw-cycle-toggle').dataset.on = String(next);
+      setTweak('autoCycle', next);
+    });
+    panel.querySelector('#tw-speed').addEventListener('input', e => {
+      const v = parseFloat(e.target.value);
+      panel.querySelector('#tw-speed-val').textContent = v.toFixed(1) + 's';
+      setTweak('cycleSpeed', v);
+    });
+    return panel;
+  }
+
+  function renderSwatches(){
+    const c = document.getElementById('tw-swatches');
+    if (!c) return;
+    c.innerHTML = '';
+    ACCENT_OPTIONS.forEach(opt => {
+      const b = document.createElement('button');
+      b.className = 'tw-sw' + (opt.value.toLowerCase() === tweakState.accent.toLowerCase() ? ' active' : '');
+      b.innerHTML = `<div class="fill" style="background:${opt.value}"></div><span class="name">${opt.name}</span>`;
+      b.addEventListener('click', () => setTweak('accent', opt.value));
+      c.appendChild(b);
+    });
+  }
+
+  // Initial state
+  applyAccent(tweakState.accent);
+
+  const panelEl = buildPanel();
+  renderSwatches();
+  panelEl.querySelector('#tw-cycle-toggle').dataset.on = String(tweakState.autoCycle);
+  panelEl.querySelector('#tw-speed').value = tweakState.cycleSpeed;
+  panelEl.querySelector('#tw-speed-val').textContent = tweakState.cycleSpeed.toFixed(1) + 's';
+
+  window.addEventListener('message', (e) => {
+    if (!e.data || typeof e.data !== 'object') return;
+    if (e.data.type === '__activate_edit_mode') panelEl.classList.add('open');
+    if (e.data.type === '__deactivate_edit_mode') panelEl.classList.remove('open');
+  });
+  window.parent.postMessage({ type:'__edit_mode_available' }, '*');
+
+  if (tweakState.autoCycle) startCycle();
+
+  // Cursor follower
+  const cursor = document.getElementById('cursor');
+  let cx = 0, cy = 0, tx = 0, ty = 0;
+  document.addEventListener('mousemove', e => { tx = e.clientX; ty = e.clientY; });
+  function loop(){
+    cx += (tx - cx) * .18;
+    cy += (ty - cy) * .18;
+    cursor.style.transform = `translate(${cx}px, ${cy}px) translate(-50%,-50%)`;
+    requestAnimationFrame(loop);
+  }
+  loop();
+  document.querySelectorAll('a, button, .tier, .addon, .seo, .reason, summary, .preview, .pkg, .biz-chip').forEach(el => {
+    el.addEventListener('mouseenter', () => { cursor.style.width='36px'; cursor.style.height='36px'; cursor.style.background='rgba(230,50,50,.6)'; });
+    el.addEventListener('mouseleave', () => { cursor.style.width='10px'; cursor.style.height='10px'; cursor.style.background='var(--red)'; });
+  });
+</script>
+<script>
+  // Mobile nav
+  (function(){
+    var ham=document.getElementById('ham');
+    var drawer=document.getElementById('mobDrawer');
+    var overlay=document.getElementById('mobOverlay');
+    if(!ham||!drawer) return;
+    function close(){ham.classList.remove('open');drawer.classList.remove('open');if(overlay)overlay.classList.remove('open');ham.setAttribute('aria-expanded','false');document.body.style.overflow='';}
+    ham.addEventListener('click',function(){
+      var open=ham.classList.toggle('open');
+      drawer.classList.toggle('open',open);
+      if(overlay)overlay.classList.toggle('open',open);
+      ham.setAttribute('aria-expanded',String(open));
+      document.body.style.overflow=open?'hidden':'';
+    });
+    if(overlay)overlay.addEventListener('click',close);
+    drawer.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});
+  })();
+</script>
+</body>
+</html>
+
